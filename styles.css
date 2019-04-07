@@ -1,0 +1,43 @@
+:root {
+    --base : #ffc656;
+    --spacing : 10px;
+    --blur : 1px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #193549;
+    font-family: 'Roboto';
+    line-height: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+span {
+    color: var(--base);
+}
+
+label {
+    font-size: 1.2rem;
+    margin-right: 4rem;
+}
+
+.controls {
+    margin-bottom: 2rem;
+}
+
+img {
+    padding: var(--spacing);
+    height: 300px;
+    width: 500px;
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
